@@ -1,0 +1,59 @@
+
+
+.tech{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 0px #FFF;
+    height: 10vw;
+    align-items: center;
+    margin:25px 15vw 0 15vw;
+    border-radius:0 2vw;
+}
+.logo{
+    width: 4vw;
+    padding: 1.5em;   
+    background-color: transparent !important;
+}
+.tech a{
+    background-color: transparent !important;
+}
+
+.react {
+    background-color: transparent !important; 
+    width: 4vw;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  @media (max-width: 768px) {
+    .tech{
+      height: 50px;
+      width: 275px;
+      margin:10px auto;
+    }
+    .logo{
+      width: 25px;
+    }
+    .react{
+      width: 25px;
+    }
+  }
+  
+  @keyframes react-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(3) .react {
+      animation: react-spin infinite 20s linear;
+    }
+  }
+
+
+  

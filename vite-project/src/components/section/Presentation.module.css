@@ -1,0 +1,46 @@
+.Presentation{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 8%;    
+}
+
+.Presentation h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.Presentation h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.Presentation ul{
+    list-style: none;
+    margin-left: 50px;
+}
+.Presentation ul li{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .Presentation{
+        margin-left: 2%;
+    }
+    .Presentation h1{
+        font-size: 30px;
+    }
+    .Presentation h2{
+        font-size: 15px;
+    }
+    .Presentation ul{
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .Presentation ul li{
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .Presentation p{
+        display: flex;
+        justify-content: center;
+    }
+}

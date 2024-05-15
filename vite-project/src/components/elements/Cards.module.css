@@ -1,0 +1,144 @@
+.card {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    margin-bottom: 20px;
+}
+
+.test {
+    height: 50%;
+}
+
+.cardImg{
+    height: 230px;
+  
+}
+.card img {
+    width: 100%;  
+    height: 100%; 
+    
+}
+
+
+.hiddenCard {
+    display: grid;
+    align-content: space-around;
+    justify-items: center;
+    width: 100%;
+    height: 230px ;
+    background: linear-gradient(270deg, #3406454e 0%, #242f6c39 66.67%, #0b01164e 100%) !important;
+    border-radius: 1vw;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.hiddenInfo {
+    display: grid;
+    align-content: center;  
+    height: 210px;
+    background-color: transparent;
+}
+
+.hiddenCard h4 {
+    background-color: transparent;
+    font-size: 1.2vw;
+    font-weight: normal;
+    margin: 0 0 5px 0;
+}
+
+.card img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0, 5s;
+}
+
+.card section {
+    padding: 2vw;
+    border-radius: 2vw 0;
+    width: 100%;
+    box-shadow: 0px 0px 12px 0px #FFF;
+}
+
+.card h3 {
+    font-size: 2vw; 
+    text-align: center;
+    margin: 2vw 0 0 0;
+
+}
+
+.card h5 {
+    margin: 5px 0 5px 0;
+    padding: 1vw 0 1vw 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+.card h5 strong{
+    font-size: 27px;
+}
+.card p {
+    margin: 5px;
+    padding: 15px 0 ;
+    height: 200px;
+    font-size: 1.2vw;
+    
+}
+
+@media (max-width: 1040px) {
+.card p {
+    height: 100px;
+}
+.cardImg{
+    height: 160px;
+  
+}
+.hiddenCard {
+    height: 160px;
+}
+.hiddenInfo {
+    height: 150px;
+}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 240px;
+    }
+    .cardImg{
+        height: 125px;
+      
+    }
+    .hiddenCard {
+        height: 125px;
+        margin-top: 5px;
+    }
+    .hiddenInfo {
+        width: 80%;
+        height: 100px;
+           
+    }
+    .hiddenCard h4 {
+        font-size: 10px;
+        font-weight: normal;
+        margin: 0 0 -10px 0;
+    }
+    .hiddenBtn{
+      font-size: 10px !important;
+    }
+
+    .card h3 {
+        font-size: 5vw;
+    }
+
+    .card h5 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+        height: 110px;
+    }
+}
